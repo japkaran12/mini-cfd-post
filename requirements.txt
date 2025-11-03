@@ -1,0 +1,11 @@
+numpy
+scipy
+matplotlib
+pandas
+streamlit
+scikit-learn
+scipy
+scipy>=1.7
+pyarrow
+plotly
+scipy

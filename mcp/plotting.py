@@ -14,8 +14,7 @@ def plot_contour_grid(Xi, Yi, field, title="Field", cmap="viridis", levels=50, f
 
 def plot_quiver(Xi, Yi, Ui, Vi, title="Velocity Field", stride=6, figsize=(6, 5)):
     fig, ax = plt.subplots(figsize=figsize)
-    ax.quiver(Xi[::stride, ::stride], Yi[::stride, ::stride],
-              Ui[::stride, ::stride], Vi[::stride, ::stride], scale=3)
+    ax.quiver(Xi[::stride, ::stride], Yi[::stride, ::stride], Ui[::stride, ::stride], Vi[::stride, ::stride], scale=3)
     ax.set_title(title)
     ax.set_xlabel("x")
     ax.set_ylabel("y")
