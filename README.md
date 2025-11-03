@@ -27,12 +27,12 @@ Built using **Python**, **NumPy**, **Matplotlib**, and **Streamlit**, this tool 
 git clone https://github.com/japkaran12/mini-cfd-post.git
 cd mini-cfd-post
 
-### 2️⃣ Create virtual environment
+ 2️⃣ Create virtual environment
 
 python -m venv .venv
 .\.venv\Scripts\activate
 
-### 3️⃣ Install dependencies
+ 3️⃣ Install dependencies
 
 pip install -r requirements.txt
 
